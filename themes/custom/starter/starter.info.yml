@@ -1,0 +1,15 @@
+name: starter
+description: Drupal 8 starter theme
+type: theme
+core: 8.x
+# THE FOLLOWING ADDS A STYLESHEET, STYLE.CSS
+libraries: 
+  - starter/global-css
+  - starter/global-js
+
+# THE FOLLOWING REMOVES A STYLESHEET, SHORTCUT.ICONS.THEME.CSS
+# stylesheets-remove:
+  # - core/themes/stable/css/shortcut/shortcut.icons.theme.css
+
+
+

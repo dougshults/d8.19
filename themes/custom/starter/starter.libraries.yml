@@ -1,0 +1,16 @@
+# CSS AND JAVASCRIPT LIBRARIES
+
+# CSS
+global-css:
+  css:
+    theme:
+      css/style.css: {}
+
+# JAVASCRIPT
+global-js:
+  js:
+    js/scripts.js: {}
+  dependencies: 
+    - core/jquery
+
+
