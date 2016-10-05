@@ -10,7 +10,12 @@ global-css:
 global-js:
   js:
     js/scripts.js: {}
-  dependencies: 
+  dependencies:
     - core/jquery
+    - core/drupal
+    - core/drupalSettings
 
+front-script:
+  js:
+    js/front-script.js: {}
 

@@ -1,5 +1,5 @@
-name: starter
-description: Drupal 8 starter theme
+name: Starter
+description: A starter theme for Drupal 8
 type: theme
 core: 8.x
 # THE FOLLOWING ADDS A STYLESHEET, STYLE.CSS
