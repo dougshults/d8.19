@@ -52,9 +52,11 @@
 #}
 <div class="layout-container">
 
-  <header role="banner">
-    {{ page.header }}
-  </header>
+  {% if page.header %}
+    <header role="banner">
+      {{ page.header }}
+    </header>
+  {% endif %}
 
   {{ page.primary_menu }}
   {{ page.secondary_menu }}
@@ -65,11 +67,17 @@
 
   {{ page.help }}
 
+    {% if page.hero %}
+      <section role="hero">
+        {{ page.hero }}
+      </section>
+    {% endif %}
+
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
     <div class="layout-content">
-   
+
       {{ page.content }}
     </div>{# /.layout-content #}
 

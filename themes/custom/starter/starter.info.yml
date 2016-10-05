@@ -3,13 +3,20 @@ description: A starter theme for Drupal 8
 type: theme
 core: 8.x
 # THE FOLLOWING ADDS A STYLESHEET, STYLE.CSS
-libraries: 
+libraries:
   - starter/global-css
   - starter/global-js
 
 # THE FOLLOWING REMOVES A STYLESHEET, SHORTCUT.ICONS.THEME.CSS
 # stylesheets-remove:
   # - core/themes/stable/css/shortcut/shortcut.icons.theme.css
+
+# Define regions
+regions:
+  header: 'Header'
+  hero: 'Hero'
+  content: 'Main content'
+  footer: 'Footer'
 
 
 
