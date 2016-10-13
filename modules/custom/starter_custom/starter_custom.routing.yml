@@ -1,0 +1,7 @@
+starter_route:
+  path: /starter/custom/info/{count}
+  defaults:
+    _controller: Drupal\starter_custom\Controller\StarterController::starter
+    _title: 'Starter Custom Module'
+  requirements:
+      _permission: 'access content'

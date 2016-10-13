@@ -1,0 +1,5 @@
+name: Starter Custom Module
+type: module
+description: "Custom Module Development Testing"
+package: Testing
+core: 8.x
